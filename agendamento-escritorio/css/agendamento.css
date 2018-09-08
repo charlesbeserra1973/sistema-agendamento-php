@@ -1,0 +1,175 @@
+#container-agen{
+  width: 100%;
+  height: 700px;
+  background:url(../imagens/agenda.jpg);
+  background-size: cover; 
+  -webkit-box-shadow: 0px 0px 8px black inset;
+  -moz-box-shadow: 0px 0px 8px black inset;
+  box-shadow: 0px 0px 8px black inset;
+}
+
+#rgba{
+	background:rgba(80,73,89,0.3);
+	width: 100%; padding: 0; margin: 0;
+	height: 700px; 
+}
+
+#container-a{
+  margin: 0 auto;
+  width: 980px; 
+  padding-top: 60px;
+}
+
+.box-s{
+  -webkit-box-shadow: 0px 0px 6px #4F4F4F;
+  -moz-box-shadow: 0px 0px 6px #4F4F4F;
+  box-shadow: 0px 0px 6px #4F4F4F;
+}
+
+#div-ag{
+  padding-left: 25px;
+  width: 270px;
+  border-radius: 20px 40px;
+  float: left; 
+}
+  
+  #div-ag h2{ margin:0; padding:8px; }
+      
+  #agendamento{
+    height: 456px;
+    background: #f7f7f7;
+    width: 320px;
+    padding: 30px 50px 17px 50px; 
+    border-radius: 7px;
+  }
+
+  #agendamento input,select{ 
+    padding: 6px;
+    margin: 3px 0 15px 0;
+  }
+
+  #agendamento label {font-size: 14px; font-weight: bold;}
+
+  #data_consulta{ /*input data, 1º form*/
+    width: 125px; padding: 3px !important; margin-left: 15px !important;
+  }
+
+  #gerarhr{ /*botão gerar horario*/
+    font-size: 10px;
+    text-transform: uppercase; 
+    border:1px solid gray;
+    font-weight: bold;
+    background: #f7f7f7;
+    padding: 11px 26px 9px 26px !important; 
+    margin-right: 16px !important;
+  }
+        
+  #ad_local{ /*botão adicionar local e hora*/
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 7px;
+    margin: 0px 12px 8px 0;
+    font-size: 9px; 
+    padding: 5px 8px;
+    float: right;
+  }
+
+  #resp_agenda{ /*resposta do ajax*/
+    margin:0; 
+    font-size: 13px; 
+    font-weight: bold;
+  }
+
+  #agendar{/* botao agendar consultoria*/
+    padding: 8px 20px;  
+    border: none; 
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px gray;
+    margin: 5px 0 8px 0;
+  }
+
+  #dt_a,#hr_a,#loc_a{ /*value de dados vindo no 1ºform*/
+    background:#f7f7f7;
+    border: none;
+    font-size: 13px;
+  }
+
+    #div-todos{ /*div container p/ os card de agendamentos*/
+      height: 493px; width: 470px;
+      padding: 5px 12px;
+      margin-top: 45px;
+      float: right;
+      overflow: auto;
+      border-radius: 7px;
+    }
+
+    .card{ /*card com cada agendamento*/
+      background: #f7f7f7;
+      border: gray solid 1px;
+      border-radius: 4px;
+      width: 95%;
+      padding: 2%;
+      overflow: auto;
+      margin:7px 0;
+      -webkit-box-shadow: 2px 1px 3px #4F4F4F;
+      -moz-box-shadow: 2px 1px 3px #4F4F4F;
+      box-shadow: 2px 2px 3px #4F4F4F;
+    }
+
+    .frase{ /*p dentro dos cards*/
+      margin: 5px 0;  
+    }
+
+    .espaco{ /*p dentro dos cards*/
+      margin:3px 0 15px 0; 
+    }
+
+    .inexistente{ /* style do texto caso não haja agendamento.*/
+      text-align: center;
+      margin: 50px 0;
+      color: gray;
+    }
+
+    .destaque{ /*destaque nos titulos do card*/
+      font-weight: bold;
+      padding:2px; 
+      text-transform: uppercase;
+    }
+
+    .cancel_cons{ /*botão de cancelamento*/
+      color: #8B0000;
+      background: transparent;
+      border: none;
+      float: right;
+      margin-right: 10px;
+      padding: 5px 10px;
+      font-size: 11px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .cancel_cons:hover{
+      background: #8B0000;
+      color: white;
+    }
+    
+    #font15 {font-size: 15px}
+
+
+/*caso o usuário não esteja logado*/
+#restrito{
+  text-align:center; 
+  border-radius: 10px;
+  padding: 50px 20px;
+  width: 550px;
+  margin:0 auto;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}

@@ -1,0 +1,144 @@
+
+/*-----------------------CABEÇALHO----------------------------------*/
+	body{
+		margin: 0;padding: 0;
+		font-family:Calibri;
+		background: #f7f7f7;
+	}
+
+	.bk-azul{
+        background:#192B35;
+    }
+
+    .bk-azul-escuro{
+        background:#101B21;
+    }
+        
+    .color-white{
+     	color:white;
+    }
+
+	.color-white-box{
+        text-shadow: 1px 1px 5px #363636;
+        color: #f7f7f7;
+    }
+
+
+		nav{
+   			width: 84%;
+   			height: 105px;
+   			padding-left: 8%;
+   			padding-right: 8%;  
+		}
+	   		.link-nav, #button_nav{ text-decoration:none; }
+
+	    	#button_nav{
+	    		background: none;
+	    		border:none;
+				font-family:Calibri;
+	    	}
+
+
+			/*------------------------------*/
+	        #div-cabecalho-1{ 
+	        	float: left;
+	        	height: 50px;
+	        	margin: 27.5px 0px;/* vertical-align*/
+	        }
+
+
+	        #logo{ border:1px solid #f7f7f7; color:#f7f7f7; margin: 0; border-radius: 40px 80px; padding:5px 33px; font-size:2.2em; }
+
+	        /*------------------------------*/
+	        #div-cabecalho-2{
+	        	height:23px; 
+	        	float: right;
+	        	margin: 41px 0px;/* vertical-align*/
+	        } 
+
+	       	#div-cabecalho-3{ 
+	       		display: none;
+	        	font-size: 25px;
+	        	float: right; 
+	        	margin: 41px 0px;/* vertical-align*/
+	        } 
+
+	        #div-cabecalho-2 a,button{ font-size: 18px;} 
+	        .icons2{
+	   			margin-right: 6px;
+	   		}
+
+	   		.separador { margin: 0 9px; color:#828282; }
+	
+	/*------------------------------*/
+
+   	#pop-logcad{
+   		width: 100%;
+   		height: 100%;
+   		z-index: 980;
+   		position: fixed;
+   		top: 0; left: 0;
+   		display: none; 
+   	}
+
+	.loginecadastro{ 
+	    width: 235px;
+	    padding: 20px 35px 35px 35px; 
+	    margin: 50px auto 0 auto;
+	    background: #f7f7f7;
+	    border: 2px outset #f7f7f7;
+	    -webkit-box-shadow: 0px 0px 400px black;
+    	-moz-box-shadow: 0px 0px 400px black;
+    	box-shadow: 0px 0px 400px black;
+	}
+
+		#div-login {  height: 250px; display: none; }
+		#div-cadastro {  height: 407px; display: none;  }
+
+	    .loginecadastro input { padding: 5px; margin:7px 0 25px 0; width: 220px; }
+	    .loginecadastro label, #resposta { color:#101B21; font-weight: bold;  }
+	    .fechar{
+	    	font-size: 22px;
+	    	color: #192B35;
+	    	float: right;
+	    }
+
+	    #btn-login-entrar, #btn-cadastrar, #btn-enviar { /*botão*/
+	    	border:none; 
+	    	padding: 8px 20px;
+	    	font-size: 12px;
+	    	float: right; 
+	    	font-weight: bold;
+	    	border-radius: 7px;
+  			box-shadow: 2px 2px 1px gray;
+  			text-transform: uppercase;
+	    }
+
+	#fecharM{
+		margin:0;
+		padding: 5px; 
+		display: none;
+	}
+/*:__________________________________________________________________________________*/
+@media only screen and (max-width: 900px) {
+	#div-cabecalho-2{ 
+		display: none; 
+		background: #192B35;
+		width: 90%; 
+		margin: 0 auto; padding: 0;
+		padding:22px 5% 60px 5%;
+		z-index: 9999;
+		position: absolute;
+    	left: 0px; top: 0px; 
+    	font-weight: bold;
+    	font-size: 0.8em;
+    	text-align: right;
+    }
+
+    #fecharM{ display: block;}
+    
+    .separador { margin: 0 3px;word-wrap: wrap; }
+	#div-cabecalho-3{ display: block; }
+	#logo{ padding:8px 26px; font-size:1.7em; }
+}
+

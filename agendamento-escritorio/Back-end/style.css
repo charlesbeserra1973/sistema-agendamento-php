@@ -1,0 +1,102 @@
+body{
+	background: url(../imagens/lo.jpg);
+	background-size: cover;
+	padding: 0; margin: 0;
+	font-family:Calibri;
+}
+
+#container{ 
+	margin: 40px auto; 
+	width: 1280px;
+}
+
+#menu{
+	background: #f7f7f7;
+	border: outset #C1CDC1 3px;
+	width: 405px;
+	height: 400px;
+	margin-right: 20px;
+	float: left;
+}
+
+	#menu a{ text-decoration:none; }
+
+	.li {
+		width: 90%;
+		margin: 5px auto;
+		padding: 10px 4%;
+		list-style: none;
+		border:solid 1px #101B21;
+		background:#192B35;  
+		text-transform: uppercase;
+		color: white; font-weight: bold;
+	}
+
+	.box-shadow{
+		-webkit-box-shadow: 0px 0px 20px black;
+		-moz-box-shadow: 0px 0px 20px black;
+		box-shadow: 0px 0px 20px black;
+	}
+
+	.icons{
+		float: right;
+	}
+/*____________________________________*/
+
+#principal{
+	background: #f7f7f7;
+	width: 830px;
+	height: 680px;
+	border: outset #C1CDC1 3px; 
+	float: left;
+	overflow: auto;
+}
+
+.card{
+	width: 92%;
+	padding:15px 3%;
+	margin: 9px auto;
+	border: solid #C1CDC1 2px; 
+}
+
+	.frase{ margin: 3px 0; }
+
+	.espaco{ margin:3px 0 15px 0; }
+
+	.inexistente{
+		text-align: center;
+		margin: 50px 0;
+		color: gray;
+	}
+
+	#btn-visualizar {
+		border: none; 
+		background: transparent; 
+		font-size:1.2em;
+	}
+
+	.excluir{
+		color: white;
+		border: none;
+		float: right;
+		margin-right: 10px;
+		padding: 5px 10px;
+		font-size: 11px;
+		border-radius: 8px;
+		font-weight: bold;
+	}
+
+	.bk-vermelho {  background: #8B0000;  }
+	.bk-laranja{  background:#ce6702;  }
+	
+
+	/*cores do card*/
+	.vermelho { color:#721C24; }
+	.laranja{  color:#ce6702;  }
+	.verde{ color:#155724; }
+
+#div-ribeirao, #div-mensagem,#div-maua{ 
+	display: none;
+}
+
+ 
